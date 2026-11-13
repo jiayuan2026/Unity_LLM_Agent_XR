@@ -158,9 +158,12 @@ Messages are exchanged using JSON over UDP.
 
 ---
 
-## 7 Demo
+## 7 Unity Interaction Demo
 
-Coming Soon.
+The following GIF demonstrates the Unity XR
+environment and object manipulation.
+
+![XR Cube Interaction Demo](docs/images/cube_interaction_demo.gif)
 
 ---
 
