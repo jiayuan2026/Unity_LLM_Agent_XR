@@ -37,9 +37,26 @@ The system consists of three major components:
 3. **LLM Cognitive Core** – Performs reasoning and tool selection.
 
 ![System Architecture](docs/images/system_architecture.png)
-
+Figure 1. System Architecture of the Embodied LLM Agent in XR
 ---
+## 🔄 Implemented Interaction Workflow
 
+The following sequence diagram illustrates the
+currently implemented end-to-end interaction pipeline.
+
+![Interaction Workflow](docs/images/interaction_workflow.png)
+Figure 2. Implemented Interaction Workflow
+
+### Example: Natural Language Object Manipulation
+
+1. The user issues a voice or text command.
+2. Unity sends the command and scene state to Python.
+3. The LLM analyzes the context and selects a tool.
+4. Python executes the function and sends a JSON command.
+5. Unity updates the target object's material, position.
+6. The user receives visual feedback.
+7. The agent returns a natural language response.
+---
 ## 🛠️ Tech Stack
 
 | Component | Technology |
@@ -89,7 +106,7 @@ project-root/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/USERNAME/REPOSITORY.git
+git clone https://github.com/jiayuan2026/Unity_LLM_Agent_XR.git
 cd REPOSITORY
 ```
 
