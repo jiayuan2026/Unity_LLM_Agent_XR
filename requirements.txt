@@ -1,0 +1,33 @@
+
+# ==========================================
+# 1. Core LLM & Environment
+# ==========================================
+openai>=1.30.0,<3.0.0
+python-dotenv>=1.0.0,<2.0.0
+pydantic>=2.0.0,<3.0.0
+
+# ==========================================
+# 2. RAG & Memory
+# ==========================================
+chromadb>=0.4.24,<2.0.0
+sentence-transformers>=3.0.0
+jieba>=0.42.1
+
+# ==========================================
+# 3. Network & Utilities
+# ==========================================
+# socket, json, threading, queue, os, pathlib
+# Python Standard Library - No installation required
+
+# ==========================================
+# 4. Future Multimodal & Voice
+# ==========================================
+# numpy
+# opencv-python
+# requests
+
+# ==========================================
+# 5. Optional: GPU Acceleration
+# ==========================================
+# torch
+# Install according to your CUDA environment
