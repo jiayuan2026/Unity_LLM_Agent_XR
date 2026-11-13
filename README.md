@@ -1,4 +1,4 @@
-# Embodied LLM Agent for XR
+# Embodied LLM Agent for Collaborative XR
 
 An LLM-powered embodied agent that connects Unity XR environments with a Python backend to enable natural language interaction, scene understanding, and real-time environmental control.
 
