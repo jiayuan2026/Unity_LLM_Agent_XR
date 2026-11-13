@@ -4,13 +4,13 @@ An LLM-powered embodied agent that connects Unity XR environments with a Python 
 
 ---
 
-## 📌 Overview
+## 1 Overview
 
 This project explores the integration of Large Language Models (LLMs) into immersive XR environments.
 
 Users can interact with the virtual environment through voice or text commands. The LLM agent interprets user intentions, reasons about the current scene, and invokes tools to execute actions inside Unity.
 
-### Core Objectives
+## 1.1 Core Objectives
 - Natural language interaction in XR.
 - Scene-aware reasoning and context understanding.
 - Tool-based execution of environmental actions.
@@ -18,7 +18,7 @@ Users can interact with the virtual environment through voice or text commands. 
 
 ---
 
-## ✨ Key Features
+## 1.2 Key Features
 
 - **Natural Language Interaction:** Voice and text-based user input.
 - **Scene Awareness:** Real-time scene state tracking.
@@ -28,7 +28,7 @@ Users can interact with the virtual environment through voice or text commands. 
 
 ---
 
-## 🏗️ System Architecture
+## 2️ System Architecture
 
 The system consists of three major components:
 
@@ -39,7 +39,7 @@ The system consists of three major components:
 ![System Architecture](docs/images/system_architecture.png)
 Figure 1. System Architecture of the Embodied LLM Agent in XR
 ---
-## 🔄 Implemented Interaction Workflow
+## 3 Implemented Interaction Workflow
 
 The following sequence diagram illustrates the
 currently implemented end-to-end interaction pipeline.
@@ -57,7 +57,7 @@ Figure 2. Implemented Interaction Workflow
 6. The user receives visual feedback.
 7. The agent returns a natural language response.
 ---
-## 🛠️ Tech Stack
+## 4️ Tech Stack
 
 | Component | Technology |
 |---|---|
@@ -71,7 +71,7 @@ Figure 2. Implemented Interaction Workflow
 
 ---
 
-## 📂 Project Structure
+## 5 Project Structure
 
 ```text
 project-root/
@@ -94,7 +94,7 @@ project-root/
 
 ---
 
-## ⚙️ Installation
+## 5.1️ Installation
 
 ### Prerequisites
 
@@ -107,7 +107,7 @@ project-root/
 
 ```bash
 git clone https://github.com/jiayuan2026/Unity_LLM_Agent_XR.git
-cd REPOSITORY
+cd Unity_LLM_Agent_XR
 ```
 
 ### Setup Python Backend
@@ -137,7 +137,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Getting Started
+## 6 Getting Started
 
 1. Open the Unity project.
 2. Configure the Python backend and API credentials.
@@ -147,7 +147,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔄 Communication Protocol
+## 6.1 Communication Protocol
 
 | Direction | Port | Description |
 |---|---:|---|
@@ -158,13 +158,13 @@ Messages are exchanged using JSON over UDP.
 
 ---
 
-## 📸 Demo
+## 7 Demo
 
 Coming Soon.
 
 ---
 
-## 🗺️ Roadmap
+## 8️ Roadmap
 
 - [x] Unity-Python UDP communication
 - [x] Basic LLM API integration
@@ -177,12 +177,12 @@ Coming Soon.
 
 ---
 
-## 🤝 Contributing
+## 9 Contributing
 
 Contributions, ideas, and feedback are welcome.
 
 ---
 
-## 📄 License
+## 10 License
 
 To be determined.
