@@ -1,0 +1,2 @@
+<b>Function & Purpose: </b> <br>
+Instead of writing rigid, hard-coded interactions, this infrastructure empowers developers to build dynamic, interactive XR experiences where users can simply speak or type natural language. The Agent remembers past spatial interactions, autonomously plans multi-step actions, validates its own data structures to prevent crashes, and instantly executes complex spatial commands in Unity. Ultimately, this creates a robust, rapidly iterable foundation for truly intelligent, spatially-aware virtual agents.
